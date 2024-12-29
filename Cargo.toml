@@ -1,0 +1,13 @@
+[package]
+name = "blog_archiver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+futures-util = { version = "0.3.31", features = ["std"] }
+indicatif = "0.17.9"
+regex = "1.11.1"
+reqwest = { version = "0.12.11", features = ["blocking"] }
+scraper = "0.22.0"
+tokio = { version = "1.42.0", features = ["full"] }

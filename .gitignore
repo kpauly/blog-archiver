@@ -1,0 +1,14 @@
+# Ignore folders
+sample/
+output/
+output2/
+
+# Common Rust ignores
+target/
+*.rs.bk
+Cargo.lock
+
+# Other common ignores
+.DS_Store
+*.log
+
